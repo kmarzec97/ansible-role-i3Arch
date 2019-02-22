@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Krystian Marzec
+  description: Role for i3 wm and connman instalation 
+  #company: your company (optional)
+  license: license MIT
+
+  min_ansible_version: 2.4
+
+  galaxy_tags: []
+dependencies: []

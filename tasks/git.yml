@@ -1,0 +1,5 @@
+---
+- git:
+    repo: https://github.com/kmarzec97/i3config.git
+    dest: i3configurator
+

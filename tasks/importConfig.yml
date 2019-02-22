@@ -1,0 +1,19 @@
+---
+- file:
+    path: "{{ item }}"
+    state: directory
+    mode: 744
+  with_items:
+    - ["~/.config/i3", "~/.config/i3status"]
+
+- file:
+    path: ~/.config/i3/cringe
+    state: touch
+    mode: 700
+
+- command: cp -r i3configurator/i3 ~/.config/ 
+
+- copy:
+    src: i3configurator/i3status/config
+    dest: ~/.config/i3status/config
+    remote_src: yes

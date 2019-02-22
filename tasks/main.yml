@@ -1,0 +1,4 @@
+- include: pacman.yml
+- include: git.yml
+- include: importConfig.yml
+- include: postJob.yml

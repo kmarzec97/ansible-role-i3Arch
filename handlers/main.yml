@@ -1,0 +1,7 @@
+---
+# handlers file for i3Arch
+- name: enable ConnMan
+  systemd:
+      name: connman
+      enabled: yes
+      state: started

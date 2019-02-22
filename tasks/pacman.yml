@@ -1,0 +1,11 @@
+---
+- pacman:
+    name: ["i3", "git"]
+    state: latest
+    update_cache: yes
+
+- pacman:
+    name: connman
+    state: latest
+    update_cache: yes
+  notify: enable ConnMan
